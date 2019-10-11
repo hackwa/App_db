@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root versionMajor="1" versionMinor="5">
+  <kernel name="loopback" language="ip_c" vlnv="xilinx.com:usr:loopback:1.0" attributes="" hash="" preferredWorkGroupSizeMultiple="1" workGroupSize="1" debug="false" profileType="" interrupt="true" hwControlProtocol="ap_ctrl_none">
+    <ports>
+      <port name="input_r" mode="read_only" dataWidth="48" portType="stream"/>
+      <port name="output_r" mode="write_only" dataWidth="48" portType="stream"/>
+    </ports>
+    <args>
+      <arg name="input" addressQualifier="4" id="0" port="input_r" size="0x8" offset="0x0" hostOffset="0x0" hostSize="0x8" type="stream&lt;qdma_axis&lt;32, 0, 0, 0> >&amp;"/>
+      <arg name="output" addressQualifier="4" id="1" port="output_r" size="0x8" offset="0x0" hostOffset="0x0" hostSize="0x8" type="stream&lt;qdma_axis&lt;32, 0, 0, 0> >&amp;"/>
+    </args>
+  </kernel>
+</root>
